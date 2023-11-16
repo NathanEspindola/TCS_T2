@@ -1,0 +1,651 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /tb/cuv/u_aes_top/key_exp_inst
+=== Design Unit: work.key_expansion(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       103       103         0   100.00%
+    Conditions                      64        61         3    95.31%
+    Statements                      82        82         0   100.00%
+    Toggles                        704       655        49    93.03%
+
+=================================================================================
+=== Instance: /tb/cuv/u_aes_top/aes_enc_inst
+=== Design Unit: work.aes_enc(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        83        83         0   100.00%
+    Conditions                      16        14         2    87.50%
+    Expressions                     32        32         0   100.00%
+    Statements                     129       129         0   100.00%
+    Toggles                        537       537         0   100.00%
+
+=================================================================================
+=== Instance: /tb/cuv/u_aes_top/aes_dec_inst
+=== Design Unit: work.aes_dec(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       189       187         2    98.94%
+    Conditions                      16        14         2    87.50%
+    Statements                     182       181         1    99.45%
+    Toggles                        505       505         0   100.00%
+
+=================================================================================
+=== Instance: /tb/cuv/u_aes_top
+=== Design Unit: work.aes_top(struct)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        512       488        24    95.31%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_KEY
+=== Design Unit: work.blowfish_bram_key(blowfish_bram_key)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                        170       122        48    71.76%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_P
+=== Design Unit: work.blowfish_bram_p(blowfish_bram_p)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         2         1    66.66%
+    Statements                       2         1         1    50.00%
+    Toggles                        274        76       198    27.73%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_0
+=== Design Unit: work.blowfish_bram_s0(blowfish_bram_s0)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                        148       148         0   100.00%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_1
+=== Design Unit: work.blowfish_bram_s1(blowfish_bram_s1)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                        148       148         0   100.00%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_2
+=== Design Unit: work.blowfish_bram_s2(blowfish_bram_s2)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                        148       148         0   100.00%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_3
+=== Design Unit: work.blowfish_bram_s3(blowfish_bram_s3)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                        148       148         0   100.00%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_0_REF
+=== Design Unit: work.blowfish_bram_s0(blowfish_bram_s0)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         2         1    66.66%
+    Statements                       2         1         1    50.00%
+    Toggles                        280        82       198    29.28%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_1_REF
+=== Design Unit: work.blowfish_bram_s1(blowfish_bram_s1)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         2         1    66.66%
+    Statements                       2         1         1    50.00%
+    Toggles                        280        82       198    29.28%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_2_REF
+=== Design Unit: work.blowfish_bram_s2(blowfish_bram_s2)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         2         1    66.66%
+    Statements                       2         1         1    50.00%
+    Toggles                        280        82       198    29.28%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top/BRAM_3_REF
+=== Design Unit: work.blowfish_bram_s3(blowfish_bram_s3)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         2         1    66.66%
+    Statements                       2         1         1    50.00%
+    Toggles                        280        82       198    29.28%
+
+=================================================================================
+=== Instance: /tb/cuv/u_blowfish_top
+=== Design Unit: work.blowfish_top(blowfish_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       131       129         2    98.47%
+    Conditions                      22        20         2    90.90%
+    Statements                     160       159         1    99.37%
+    Toggles                       2223      1995       228    89.74%
+
+=================================================================================
+=== Instance: /tb/cuv/u_gost_top/BRAM_KEY
+=== Design Unit: work.bram_key(bram_key)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                        170       122        48    71.76%
+
+=================================================================================
+=== Instance: /tb/cuv/u_gost_top/BRAM_0
+=== Design Unit: work.bram_s0(bram_s0)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         2         1    66.66%
+    Statements                       2         1         1    50.00%
+    Toggles                         54        24        30    44.44%
+
+=================================================================================
+=== Instance: /tb/cuv/u_gost_top
+=== Design Unit: work.gost_top(gost_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        68        67         1    98.52%
+    Conditions                      12        11         1    91.66%
+    FSM States                       6         6         0   100.00%
+    FSM Transitions                 10         7         3    70.00%
+    Statements                      65        64         1    98.46%
+    Toggles                        623       539        84    86.51%
+
+=================================================================================
+=== Instance: /tb/cuv/u_noekeon_top/BRAM_RC
+=== Design Unit: work.bram_rc(bram_rc)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         2         1    66.66%
+    Statements                       2         1         1    50.00%
+    Toggles                         82        28        54    34.14%
+
+=================================================================================
+=== Instance: /tb/cuv/u_noekeon_top
+=== Design Unit: work.noekeon_top(noekeon_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       113       108         5    95.57%
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  6         5         1    83.33%
+    Statements                     140       135         5    96.42%
+    Toggles                        327       303        24    92.66%
+
+=================================================================================
+=== Instance: /tb/cuv/u_simon_top/BRAM_SUB_KEYS
+=== Design Unit: work.bram_sub_keys(bram_sub_keys)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                        274       274         0   100.00%
+
+=================================================================================
+=== Instance: /tb/cuv/u_simon_top
+=== Design Unit: work.simon_top(simon_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        90        86         4    95.55%
+    Conditions                       8         7         1    87.50%
+    FSM States                       5         5         0   100.00%
+    FSM Transitions                  8         6         2    75.00%
+    Statements                      87        83         4    95.40%
+    Toggles                       1448      1412        36    97.51%
+
+=================================================================================
+=== Instance: /tb/cuv/u_xtea_top
+=== Design Unit: work.xtea_top(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        76        74         2    97.36%
+    Conditions                      20        18         2    90.00%
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  6         5         1    83.33%
+    Statements                     112       112         0   100.00%
+    Toggles                       1127      1103        24    97.87%
+
+=================================================================================
+=== Instance: /tb/cuv/u_xtea_top_duplex/enc_subkey_calc_inst
+=== Design Unit: work.xtea_subkey_calc_enc(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30        29         1    96.66%
+    Conditions                       8         8         0   100.00%
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  6         4         2    66.66%
+    Statements                      25        25         0   100.00%
+    Toggles                        220       196        24    89.09%
+
+=================================================================================
+=== Instance: /tb/cuv/u_xtea_top_duplex/dec_subkey_calc_inst
+=== Design Unit: work.xtea_subkey_calc_dec(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30        29         1    96.66%
+    Conditions                       8         8         0   100.00%
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  6         4         2    66.66%
+    Statements                      25        25         0   100.00%
+    Toggles                        220       196        24    89.09%
+
+=================================================================================
+=== Instance: /tb/cuv/u_xtea_top_duplex/xtea_enc_inst
+=== Design Unit: work.xtea_enc(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        40        39         1    97.50%
+    Conditions                      12        10         2    83.33%
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  6         4         2    66.66%
+    Statements                      61        61         0   100.00%
+    Toggles                        981       975         6    99.38%
+
+=================================================================================
+=== Instance: /tb/cuv/u_xtea_top_duplex/xtea_dec_inst
+=== Design Unit: work.xtea_dec(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        40        39         1    97.50%
+    Conditions                      12        10         2    83.33%
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  6         4         2    66.66%
+    Statements                      61        61         0   100.00%
+    Toggles                        981       975         6    99.38%
+
+=================================================================================
+=== Instance: /tb/cuv/u_xtea_top_duplex
+=== Design Unit: work.xtea_top_duplex(struct)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        484       448        36    92.56%
+
+=================================================================================
+=== Instance: /tb/cuv
+=== Design Unit: work.cmsdk_ahb_crypt
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       180       170        10    94.44%
+    Conditions                     166       137        29    82.53%
+    Expressions                     35        35         0   100.00%
+    FSM States                      20        20         0   100.00%
+    FSM Transitions                 42        24        18    57.14%
+    Statements                     150       139        11    92.66%
+    Toggles                       2220      1501       719    67.61%
+
+=================================================================================
+=== Instance: /tb
+=== Design Unit: work.tb(tb_architecture)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         7         4         3    57.14%
+    Statements                     285       264        21    92.63%
+    Toggles                        334       143       191    42.81%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_aes_top/key_exp_inst
+=== Design Unit: work.key_expansion(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       103         7        96     6.79%
+    Conditions                      64         0        64     0.00%
+    Statements                      82         9        73    10.97%
+    Toggles                       2008         1      2007     0.04%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_aes_top/aes_enc_inst
+=== Design Unit: work.aes_enc(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        83         1        82     1.20%
+    Conditions                      16         0        16     0.00%
+    Expressions                     32         0        32     0.00%
+    Statements                     129        19       110    14.72%
+    Toggles                       1601         1      1600     0.06%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_aes_top/aes_dec_inst
+=== Design Unit: work.aes_dec(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       189        49       140    25.92%
+    Conditions                      16         0        16     0.00%
+    Statements                     182        67       115    36.81%
+    Toggles                       1505         1      1504     0.06%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_aes_top
+=== Design Unit: work.aes_top(struct)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                       1488         0      1488     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_KEY
+=== Design Unit: work.blowfish_bram_key(blowfish_bram_key)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        414         0       414     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_P
+=== Design Unit: work.blowfish_bram_p(blowfish_bram_p)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        426         0       426     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_0
+=== Design Unit: work.blowfish_bram_s0(blowfish_bram_s0)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_1
+=== Design Unit: work.blowfish_bram_s1(blowfish_bram_s1)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_2
+=== Design Unit: work.blowfish_bram_s2(blowfish_bram_s2)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_3
+=== Design Unit: work.blowfish_bram_s3(blowfish_bram_s3)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_0_REF
+=== Design Unit: work.blowfish_bram_s0(blowfish_bram_s0)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_1_REF
+=== Design Unit: work.blowfish_bram_s1(blowfish_bram_s1)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_2_REF
+=== Design Unit: work.blowfish_bram_s2(blowfish_bram_s2)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top/BRAM_3_REF
+=== Design Unit: work.blowfish_bram_s3(blowfish_bram_s3)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        444         0       444     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_blowfish_top
+=== Design Unit: work.blowfish_top(blowfish_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       131         2       129     1.52%
+    Conditions                      22         0        22     0.00%
+    Statements                     160         2       158     1.25%
+    Toggles                       6207         0      6207     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_gost_top/BRAM_KEY
+=== Design Unit: work.bram_key(bram_key)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        414         0       414     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_gost_top/BRAM_0
+=== Design Unit: work.bram_s0(bram_s0)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        102         0       102     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_gost_top
+=== Design Unit: work.gost_top(gost_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        68         3        65     4.41%
+    Conditions                      12         0        12     0.00%
+    FSM States                       6         0         6     0.00%
+    FSM Transitions                 10         0        10     0.00%
+    Statements                      65         3        62     4.61%
+    Toggles                       1695         0      1695     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_noekeon_top/BRAM_RC
+=== Design Unit: work.bram_rc(bram_rc)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        138         0       138     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_noekeon_top
+=== Design Unit: work.noekeon_top(noekeon_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       113         2       111     1.76%
+    FSM States                       4         0         4     0.00%
+    FSM Transitions                  6         0         6     0.00%
+    Statements                     140         2       138     1.42%
+    Toggles                        927         0       927     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_simon_top/BRAM_SUB_KEYS
+=== Design Unit: work.bram_sub_keys(bram_sub_keys)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         0         3     0.00%
+    Statements                       2         1         1    50.00%
+    Toggles                        822         0       822     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_simon_top
+=== Design Unit: work.simon_top(simon_top)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        90         3        87     3.33%
+    Conditions                       8         0         8     0.00%
+    FSM States                       5         0         5     0.00%
+    FSM Transitions                  8         0         8     0.00%
+    Statements                      87         3        84     3.44%
+    Toggles                       4268         0      4268     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_xtea_top
+=== Design Unit: work.xtea_top(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        76         0        76     0.00%
+    Conditions                      20         0        20     0.00%
+    FSM States                       4         0         4     0.00%
+    FSM Transitions                  6         0         6     0.00%
+    Statements                     112         6       106     5.35%
+    Toggles                       3327         0      3327     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_xtea_top_duplex/enc_subkey_calc_inst
+=== Design Unit: work.xtea_subkey_calc_enc(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30         0        30     0.00%
+    Conditions                       8         0         8     0.00%
+    FSM States                       4         0         4     0.00%
+    FSM Transitions                  6         0         6     0.00%
+    Statements                      25         0        25     0.00%
+    Toggles                        608         0       608     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_xtea_top_duplex/dec_subkey_calc_inst
+=== Design Unit: work.xtea_subkey_calc_dec(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30         0        30     0.00%
+    Conditions                       8         0         8     0.00%
+    FSM States                       4         0         4     0.00%
+    FSM Transitions                  6         0         6     0.00%
+    Statements                      25         0        25     0.00%
+    Toggles                        608         0       608     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_xtea_top_duplex/xtea_enc_inst
+=== Design Unit: work.xtea_enc(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        40         0        40     0.00%
+    Conditions                      12         0        12     0.00%
+    FSM States                       4         0         4     0.00%
+    FSM Transitions                  6         0         6     0.00%
+    Statements                      61         6        55     9.83%
+    Toggles                       2925         0      2925     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_xtea_top_duplex/xtea_dec_inst
+=== Design Unit: work.xtea_dec(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        40         0        40     0.00%
+    Conditions                      12         0        12     0.00%
+    FSM States                       4         0         4     0.00%
+    FSM Transitions                  6         0         6     0.00%
+    Statements                      61         6        55     9.83%
+    Toggles                       2925         0      2925     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt/u_xtea_top_duplex
+=== Design Unit: work.xtea_top_duplex(struct)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                       1380         0      1380     0.00%
+
+=================================================================================
+=== Instance: /cmsdk_ahb_crypt
+=== Design Unit: work.cmsdk_ahb_crypt
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       180         0       180     0.00%
+    Conditions                     166         0       166     0.00%
+    Expressions                     35         0        35     0.00%
+    FSM States                      20         0        20     0.00%
+    FSM Transitions                 42         0        42     0.00%
+    Statements                     150        22       128    14.66%
+    Toggles                       5220         0      5220     0.00%
+
+
+Total Coverage By Instance (filtered view): 44.16%
+
